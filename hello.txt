@@ -1,0 +1,17 @@
+# 1. Initialize Git repo
+git init
+
+# 2. Add hello.txt to staging
+git add hello.txt
+
+# 3. Commit with message
+git commit -m "Add hello.txt with greeting"
+
+# 4. Rename branch to main
+git branch -M main
+
+# 5. Add remote origin (replace with your repo URL)
+git remote add origin https://github.com/YOUR_USERNAME/LocalRepoProject.git
+
+# 6. Push to GitHub
+git push -u origin main
